@@ -61,7 +61,7 @@ function MovieInfo(props) {
         return (
           <>
             <Button icon={<PlayCircleOutlined />} onClick={openModal}>
-              Play Trailer
+              PlayTrailer
             </Button>
             <ModalVideo
               videoKey={videoMovie.result.results[0].key}
